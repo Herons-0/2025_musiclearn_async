@@ -14,7 +14,7 @@
 
 ## Prerequisites
 
-- Python 3.6 or higher
+- Python 3.9 or higher (the pinned NumPy and pandas versions need it)
 - Audio files in WAV format
 - Metadata CSV file with file information
 - Basic understanding of audio processing concepts
@@ -22,7 +22,7 @@
 ## Installation
 
 ```bash
-pip install praat-parselmouth pandas matplotlib numpy
+pip install -r requirements.txt
 ```
 
 ## Understanding the Data Structure
@@ -468,7 +468,7 @@ def calculate_pitch_statistics(results):
 1. **Prepare your data structure**
 2. **Install dependencies:**
    ```bash
-   pip install praat-parselmouth pandas matplotlib numpy
+   pip install -r requirements.txt
    ```
 
 3. **Run the main script:**

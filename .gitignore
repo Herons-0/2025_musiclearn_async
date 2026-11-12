@@ -2,3 +2,8 @@ audio_subset/
 # metadata.csv
 main.ipynb
 dtw_student_teacher_analysis.py
+
+# Python and OS clutter
+__pycache__/
+*.py[cod]
+.DS_Store
